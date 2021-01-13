@@ -45,3 +45,5 @@ django2_venv_bookmarks/
 .env
 
 .idea
+
+runserver
