@@ -126,3 +126,11 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# jeśli na serio chce wysłać maila a nie tylko wygenerować go w konsoli
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = os.environ.get('EMAIL_CODING')
+# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD_CODING')
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
