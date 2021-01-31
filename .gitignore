@@ -47,3 +47,5 @@ django2_venv_bookmarks/
 .idea
 
 runserver
+
+media
